@@ -1,0 +1,8 @@
+C:\DATA\ASPNET.CORE\01Demo\ASPNET.CORE.WebApi\bin\Debug\netcoreapp1.1\ASPNET.CORE.WebApi.deps.json
+C:\DATA\ASPNET.CORE\01Demo\ASPNET.CORE.WebApi\bin\Debug\netcoreapp1.1\ASPNET.CORE.WebApi.runtimeconfig.json
+C:\DATA\ASPNET.CORE\01Demo\ASPNET.CORE.WebApi\bin\Debug\netcoreapp1.1\ASPNET.CORE.WebApi.runtimeconfig.dev.json
+C:\DATA\ASPNET.CORE\01Demo\ASPNET.CORE.WebApi\bin\Debug\netcoreapp1.1\ASPNET.CORE.WebApi.dll
+C:\DATA\ASPNET.CORE\01Demo\ASPNET.CORE.WebApi\bin\Debug\netcoreapp1.1\ASPNET.CORE.WebApi.pdb
+C:\DATA\ASPNET.CORE\01Demo\ASPNET.CORE.WebApi\obj\Debug\netcoreapp1.1\ASPNET.CORE.WebApi.AssemblyInfo.cs
+C:\DATA\ASPNET.CORE\01Demo\ASPNET.CORE.WebApi\obj\Debug\netcoreapp1.1\ASPNET.CORE.WebApi.dll
+C:\DATA\ASPNET.CORE\01Demo\ASPNET.CORE.WebApi\obj\Debug\netcoreapp1.1\ASPNET.CORE.WebApi.pdb

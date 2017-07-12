@@ -1,0 +1,252 @@
+2017-07-11 19:48:59.684 -05:00 [Information] Logger configurado
+2017-07-11 19:48:59.784 -05:00 [Information] MVC Configurado
+2017-07-11 19:49:00.116 -05:00 [Debug] Hosting starting
+2017-07-11 19:49:00.316 -05:00 [Debug] Hosting started
+2017-07-11 19:49:00.476 -05:00 [Debug] Connection id ""0HL68NV4HRFSL"" started.
+2017-07-11 19:49:00.480 -05:00 [Debug] Connection id ""0HL68NV4HRFSK"" started.
+2017-07-11 19:49:00.756 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/  
+2017-07-11 19:49:00.760 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:9014/  0
+2017-07-11 19:49:01.024 -05:00 [Debug] Connection id ""0HL68NV4HRFSK"" completed keep alive response.
+2017-07-11 19:49:01.044 -05:00 [Information] Request finished in 333.3548ms 200 
+2017-07-11 19:49:01.128 -05:00 [Debug] Request did not match any routes.
+2017-07-11 19:49:01.140 -05:00 [Debug] Connection id ""0HL68NV4HRFSL"" completed keep alive response.
+2017-07-11 19:49:01.152 -05:00 [Information] Request finished in 447.2662ms 404 
+2017-07-11 19:49:01.160 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/favicon.ico  
+2017-07-11 19:49:01.160 -05:00 [Debug] Request did not match any routes.
+2017-07-11 19:49:01.164 -05:00 [Debug] Connection id ""0HL68NV4HRFSK"" completed keep alive response.
+2017-07-11 19:49:01.168 -05:00 [Information] Request finished in 8.9477ms 404 
+2017-07-11 19:50:04.389 -05:00 [Debug] Connection id ""0HL68NV4HRFSL"" received FIN.
+2017-07-11 19:50:04.389 -05:00 [Debug] Connection id ""0HL68NV4HRFSK"" received FIN.
+2017-07-11 19:50:04.396 -05:00 [Debug] Connection id ""0HL68NV4HRFSM"" started.
+2017-07-11 19:50:04.425 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 19:50:04.425 -05:00 [Debug] Connection id ""0HL68NV4HRFSK"" disconnecting.
+2017-07-11 19:50:04.425 -05:00 [Debug] Connection id ""0HL68NV4HRFSL"" disconnecting.
+2017-07-11 19:50:04.450 -05:00 [Debug] Connection id ""0HL68NV4HRFSK"" sending FIN.
+2017-07-11 19:50:04.450 -05:00 [Debug] Connection id ""0HL68NV4HRFSL"" sending FIN.
+2017-07-11 19:50:04.485 -05:00 [Debug] Connection id ""0HL68NV4HRFSK"" sent FIN with status "0".
+2017-07-11 19:50:04.486 -05:00 [Debug] Connection id ""0HL68NV4HRFSL"" sent FIN with status "0".
+2017-07-11 19:50:04.524 -05:00 [Debug] Connection id ""0HL68NV4HRFSL"" stopped.
+2017-07-11 19:50:04.524 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 19:50:04.555 -05:00 [Debug] Connection id ""0HL68NV4HRFSK"" stopped.
+2017-07-11 19:50:04.691 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 19:50:04.769 -05:00 [Information] Executing action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" with arguments (null) - ModelState is Valid
+2017-07-11 19:50:04.925 -05:00 [Information] SMTP Info SmtpConfiguration { Name: "gmail.com", Port: 25, From: "email@gmail.com", FromPassword: "123456", Body: "Welcome {{name}} 2", Subject: "Bienvenido a la librería" }
+2017-07-11 19:50:04.925 -05:00 [Debug] Executed action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)", returned result "Microsoft.AspNetCore.Mvc.ContentResult".
+2017-07-11 19:50:04.941 -05:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2017-07-11 19:50:05.007 -05:00 [Information] Executed action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" in 306.1569ms
+2017-07-11 19:50:05.007 -05:00 [Debug] Connection id ""0HL68NV4HRFSM"" completed keep alive response.
+2017-07-11 19:50:05.007 -05:00 [Information] Request finished in 610.1133ms 200 text/plain; charset=utf-8
+2017-07-11 19:52:05.786 -05:00 [Debug] Connection id ""0HL68NV4HRFSM"" disconnecting.
+2017-07-11 19:52:05.801 -05:00 [Debug] Connection id ""0HL68NV4HRFSM"" sending FIN.
+2017-07-11 19:52:05.801 -05:00 [Debug] Connection id ""0HL68NV4HRFSM"" sent FIN with status "0".
+2017-07-11 19:52:05.801 -05:00 [Debug] Connection id ""0HL68NV4HRFSM"" stopped.
+2017-07-11 19:52:38.916 -05:00 [Debug] Connection id ""0HL68NV4HRFSN"" started.
+2017-07-11 19:52:38.916 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 19:52:38.916 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 19:52:38.932 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 19:52:38.932 -05:00 [Information] Executing action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" with arguments (null) - ModelState is Valid
+2017-07-11 19:52:38.932 -05:00 [Information] SMTP Info SmtpConfiguration { Name: "gmail.com", Port: 25, From: "email@gmail.com", FromPassword: "123456", Body: "Welcome {{name}} 2", Subject: "Bienvenido a la librería" }
+2017-07-11 19:52:38.945 -05:00 [Debug] Executed action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)", returned result "Microsoft.AspNetCore.Mvc.ContentResult".
+2017-07-11 19:52:38.948 -05:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2017-07-11 19:52:38.952 -05:00 [Information] Executed action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" in 15.6215ms
+2017-07-11 19:52:38.955 -05:00 [Debug] Connection id ""0HL68NV4HRFSN"" completed keep alive response.
+2017-07-11 19:52:38.960 -05:00 [Information] Request finished in 33.479ms 200 text/plain; charset=utf-8
+2017-07-11 19:52:47.437 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 19:52:47.440 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 19:52:47.444 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 19:52:47.447 -05:00 [Information] Executing action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" with arguments (null) - ModelState is Valid
+2017-07-11 19:53:09.026 -05:00 [Information] SMTP Info SmtpConfiguration { Name: "gmail.com", Port: 25, From: "email@gmail.com", FromPassword: "123456", Body: "Welcome {{name}} 2", Subject: "Bienvenido a la librería" }
+2017-07-11 19:53:09.029 -05:00 [Debug] Executed action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)", returned result "Microsoft.AspNetCore.Mvc.ContentResult".
+2017-07-11 19:53:09.031 -05:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2017-07-11 19:53:09.034 -05:00 [Information] Executed action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" in 21587.5526ms
+2017-07-11 19:53:09.037 -05:00 [Debug] Connection id ""0HL68NV4HRFSN"" completed keep alive response.
+2017-07-11 19:53:09.040 -05:00 [Information] Request finished in 21602.6512ms 200 text/plain; charset=utf-8
+2017-07-11 19:53:12.329 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 19:53:12.332 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 19:53:12.334 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 19:53:46.767 -05:00 [Information] Executing action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" with arguments (null) - ModelState is Valid
+2017-07-11 19:53:50.158 -05:00 [Information] SMTP Info SmtpConfiguration { Name: "gmail.com", Port: 25, From: "email@gmail.com", FromPassword: "123456", Body: "Welcome {{name}} 2", Subject: "Bienvenido a la librería" }
+2017-07-11 19:53:50.161 -05:00 [Debug] Executed action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)", returned result "Microsoft.AspNetCore.Mvc.ContentResult".
+2017-07-11 19:53:50.163 -05:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2017-07-11 19:53:50.166 -05:00 [Information] Executed action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" in 37828.3838ms
+2017-07-11 19:53:50.170 -05:00 [Debug] Connection id ""0HL68NV4HRFSN"" completed keep alive response.
+2017-07-11 19:53:50.173 -05:00 [Information] Request finished in 37844.2587ms 200 text/plain; charset=utf-8
+2017-07-11 19:53:52.182 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 19:53:52.185 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 19:53:52.188 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 19:56:17.211 -05:00 [Information] Logger configurado
+2017-07-11 19:56:17.256 -05:00 [Information] MVC Configurado
+2017-07-11 20:08:44.302 -05:00 [Information] Logger configurado
+2017-07-11 20:08:44.340 -05:00 [Information] MVC Configurado
+2017-07-11 20:08:44.700 -05:00 [Information] User profile is available. Using '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-07-11 20:08:50.105 -05:00 [Debug] Hosting starting
+2017-07-11 20:08:50.234 -05:00 [Debug] Hosting started
+2017-07-11 20:08:50.405 -05:00 [Debug] Connection id ""0HL68OA75PK0T"" started.
+2017-07-11 20:08:50.405 -05:00 [Debug] Connection id ""0HL68OA75PK0S"" started.
+2017-07-11 20:08:50.560 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/  
+2017-07-11 20:08:50.560 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:9014/  0
+2017-07-11 20:08:50.797 -05:00 [Debug] Connection id ""0HL68OA75PK0S"" completed keep alive response.
+2017-07-11 20:08:50.813 -05:00 [Information] Request finished in 302.7223ms 200 
+2017-07-11 20:08:50.886 -05:00 [Debug] Request did not match any routes.
+2017-07-11 20:08:50.967 -05:00 [Debug] Repository contains no viable default key. Caller should generate a key with immediate activation.
+2017-07-11 20:08:50.970 -05:00 [Debug] Policy resolution states that a new key should be added to the key ring.
+2017-07-11 20:08:50.979 -05:00 [Information] Creating key {dd96da85-ccba-45ca-b7a0-0f057ffac575} with creation date 2017-07-12 01:08:50Z, activation date 2017-07-12 01:08:50Z, and expiration date 2017-10-10 01:08:50Z.
+2017-07-11 20:08:50.991 -05:00 [Debug] Descriptor deserializer type for key {dd96da85-ccba-45ca-b7a0-0f057ffac575} is '"Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60"'.
+2017-07-11 20:08:51.014 -05:00 [Debug] No key escrow sink found. Not writing key {dd96da85-ccba-45ca-b7a0-0f057ffac575} to escrow.
+2017-07-11 20:08:51.032 -05:00 [Debug] Encrypting to Windows DPAPI for current user account ("DESKTOP-FD3KVE3\bryan").
+2017-07-11 20:08:51.052 -05:00 [Information] Writing data to file '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys\key-dd96da85-ccba-45ca-b7a0-0f057ffac575.xml"'.
+2017-07-11 20:08:51.056 -05:00 [Debug] Key cache expiration token triggered by '"CreateNewKey"' operation.
+2017-07-11 20:08:51.060 -05:00 [Debug] Reading data from file '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys\key-dd96da85-ccba-45ca-b7a0-0f057ffac575.xml"'.
+2017-07-11 20:08:51.069 -05:00 [Debug] Found key {dd96da85-ccba-45ca-b7a0-0f057ffac575}.
+2017-07-11 20:08:51.084 -05:00 [Debug] Considering key {dd96da85-ccba-45ca-b7a0-0f057ffac575} with expiration date 2017-10-10 01:08:50Z as default key.
+2017-07-11 20:08:51.096 -05:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-07-11 20:08:51.112 -05:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-07-11 20:08:51.122 -05:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-07-11 20:08:51.136 -05:00 [Debug] Using key {dd96da85-ccba-45ca-b7a0-0f057ffac575} as the default key.
+2017-07-11 20:08:51.174 -05:00 [Debug] Connection id ""0HL68OA75PK0T"" completed keep alive response.
+2017-07-11 20:08:51.191 -05:00 [Information] Request finished in 677.652ms 404 
+2017-07-11 20:08:51.204 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/favicon.ico  
+2017-07-11 20:08:51.207 -05:00 [Debug] Request did not match any routes.
+2017-07-11 20:08:51.218 -05:00 [Debug] Connection id ""0HL68OA75PK0S"" completed keep alive response.
+2017-07-11 20:08:51.221 -05:00 [Information] Request finished in 18.2446ms 404 
+2017-07-11 20:08:57.086 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 20:08:57.095 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 20:08:57.208 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 20:08:57.289 -05:00 [Information] Executing action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" with arguments (null) - ModelState is Valid
+2017-07-11 20:14:04.988 -05:00 [Information] Logger configurado
+2017-07-11 20:14:05.025 -05:00 [Information] MVC Configurado
+2017-07-11 20:14:05.262 -05:00 [Information] User profile is available. Using '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-07-11 20:14:05.311 -05:00 [Debug] Hosting starting
+2017-07-11 20:14:05.429 -05:00 [Debug] Hosting started
+2017-07-11 20:14:05.681 -05:00 [Debug] Connection id ""0HL68OD54EMOQ"" started.
+2017-07-11 20:14:05.682 -05:00 [Debug] Connection id ""0HL68OD54EMOP"" started.
+2017-07-11 20:14:05.842 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:9014/  0
+2017-07-11 20:14:05.842 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/  
+2017-07-11 20:14:06.076 -05:00 [Debug] Connection id ""0HL68OD54EMOQ"" completed keep alive response.
+2017-07-11 20:15:34.041 -05:00 [Information] Logger configurado
+2017-07-11 20:15:34.079 -05:00 [Information] MVC Configurado
+2017-07-11 20:15:34.346 -05:00 [Information] User profile is available. Using '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-07-11 20:15:34.400 -05:00 [Debug] Hosting starting
+2017-07-11 20:15:34.518 -05:00 [Debug] Hosting started
+2017-07-11 20:15:34.680 -05:00 [Debug] Connection id ""0HL68ODVL72MT"" started.
+2017-07-11 20:15:34.681 -05:00 [Debug] Connection id ""0HL68ODVL72MU"" started.
+2017-07-11 20:15:34.816 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:9014/  0
+2017-07-11 20:15:34.816 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/  
+2017-07-11 20:15:35.093 -05:00 [Debug] Connection id ""0HL68ODVL72MU"" completed keep alive response.
+2017-07-11 20:15:35.107 -05:00 [Information] Request finished in 317.4265ms 200 
+2017-07-11 20:15:35.176 -05:00 [Debug] Request did not match any routes.
+2017-07-11 20:15:35.202 -05:00 [Debug] Reading data from file '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys\key-dd96da85-ccba-45ca-b7a0-0f057ffac575.xml"'.
+2017-07-11 20:15:35.213 -05:00 [Debug] Found key {dd96da85-ccba-45ca-b7a0-0f057ffac575}.
+2017-07-11 20:15:35.231 -05:00 [Debug] Considering key {dd96da85-ccba-45ca-b7a0-0f057ffac575} with expiration date 2017-10-10 01:08:50Z as default key.
+2017-07-11 20:15:35.244 -05:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-07-11 20:15:35.261 -05:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-07-11 20:15:35.272 -05:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-07-11 20:15:35.286 -05:00 [Debug] Using key {dd96da85-ccba-45ca-b7a0-0f057ffac575} as the default key.
+2017-07-11 20:15:35.320 -05:00 [Debug] Connection id ""0HL68ODVL72MT"" completed keep alive response.
+2017-07-11 20:15:35.325 -05:00 [Information] Request finished in 543.753ms 404 
+2017-07-11 20:15:35.339 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/favicon.ico  
+2017-07-11 20:15:35.341 -05:00 [Debug] Request did not match any routes.
+2017-07-11 20:15:35.349 -05:00 [Debug] Connection id ""0HL68ODVL72MU"" completed keep alive response.
+2017-07-11 20:15:35.352 -05:00 [Information] Request finished in 13.2065ms 404 
+2017-07-11 20:15:49.044 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 20:15:49.051 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 20:15:49.176 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 20:15:49.260 -05:00 [Information] Executing action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" with arguments (null) - ModelState is Valid
+2017-07-11 20:32:07.652 -05:00 [Information] Logger configurado
+2017-07-11 20:32:07.692 -05:00 [Information] MVC Configurado
+2017-07-11 20:32:07.946 -05:00 [Information] User profile is available. Using '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-07-11 20:32:07.997 -05:00 [Debug] Hosting starting
+2017-07-11 20:32:08.153 -05:00 [Debug] Hosting started
+2017-07-11 20:32:08.317 -05:00 [Debug] Connection id ""0HL68ON7P9DVT"" started.
+2017-07-11 20:32:08.318 -05:00 [Debug] Connection id ""0HL68ON7P9DVU"" started.
+2017-07-11 20:32:08.453 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:9014/  0
+2017-07-11 20:32:08.453 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/  
+2017-07-11 20:32:08.660 -05:00 [Debug] Connection id ""0HL68ON7P9DVU"" completed keep alive response.
+2017-07-11 20:32:08.678 -05:00 [Information] Request finished in 250.3642ms 200 
+2017-07-11 20:32:08.780 -05:00 [Debug] Request did not match any routes.
+2017-07-11 20:32:08.808 -05:00 [Debug] Reading data from file '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys\key-dd96da85-ccba-45ca-b7a0-0f057ffac575.xml"'.
+2017-07-11 20:32:08.821 -05:00 [Debug] Found key {dd96da85-ccba-45ca-b7a0-0f057ffac575}.
+2017-07-11 20:32:08.838 -05:00 [Debug] Considering key {dd96da85-ccba-45ca-b7a0-0f057ffac575} with expiration date 2017-10-10 01:08:50Z as default key.
+2017-07-11 20:32:08.850 -05:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-07-11 20:32:08.866 -05:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-07-11 20:32:08.876 -05:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-07-11 20:32:08.890 -05:00 [Debug] Using key {dd96da85-ccba-45ca-b7a0-0f057ffac575} as the default key.
+2017-07-11 20:32:08.947 -05:00 [Debug] Connection id ""0HL68ON7P9DVT"" completed keep alive response.
+2017-07-11 20:32:08.952 -05:00 [Information] Request finished in 535.4188ms 404 
+2017-07-11 20:32:08.955 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/favicon.ico  
+2017-07-11 20:32:08.958 -05:00 [Debug] Request did not match any routes.
+2017-07-11 20:32:08.969 -05:00 [Debug] Connection id ""0HL68ON7P9DVU"" completed keep alive response.
+2017-07-11 20:32:08.972 -05:00 [Information] Request finished in 17.164ms 404 
+2017-07-11 20:32:12.438 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 20:32:12.445 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 20:32:12.567 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 20:32:12.646 -05:00 [Information] Executing action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" with arguments (null) - ModelState is Valid
+2017-07-11 20:34:07.667 -05:00 [Information] Logger configurado
+2017-07-11 20:34:07.704 -05:00 [Information] MVC Configurado
+2017-07-11 20:34:07.938 -05:00 [Information] User profile is available. Using '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-07-11 20:34:07.986 -05:00 [Debug] Hosting starting
+2017-07-11 20:34:08.099 -05:00 [Debug] Connection id ""0HL68OOBFS034"" started.
+2017-07-11 20:34:08.123 -05:00 [Debug] Connection id ""0HL68OOBFS035"" started.
+2017-07-11 20:34:08.137 -05:00 [Debug] Hosting started
+2017-07-11 20:34:08.252 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/  
+2017-07-11 20:34:08.252 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:9014/  0
+2017-07-11 20:34:08.433 -05:00 [Debug] Connection id ""0HL68OOBFS034"" completed keep alive response.
+2017-07-11 20:34:08.433 -05:00 [Debug] Reading data from file '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys\key-dd96da85-ccba-45ca-b7a0-0f057ffac575.xml"'.
+2017-07-11 20:34:08.453 -05:00 [Information] Request finished in 242.5787ms 200 
+2017-07-11 20:34:08.456 -05:00 [Debug] Found key {dd96da85-ccba-45ca-b7a0-0f057ffac575}.
+2017-07-11 20:34:08.482 -05:00 [Debug] Considering key {dd96da85-ccba-45ca-b7a0-0f057ffac575} with expiration date 2017-10-10 01:08:50Z as default key.
+2017-07-11 20:34:08.498 -05:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-07-11 20:34:08.513 -05:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-07-11 20:34:08.522 -05:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-07-11 20:34:08.536 -05:00 [Debug] Using key {dd96da85-ccba-45ca-b7a0-0f057ffac575} as the default key.
+2017-07-11 20:34:08.691 -05:00 [Debug] Request did not match any routes.
+2017-07-11 20:34:08.705 -05:00 [Debug] Connection id ""0HL68OOBFS035"" completed keep alive response.
+2017-07-11 20:34:08.707 -05:00 [Information] Request finished in 508.9806ms 404 
+2017-07-11 20:43:01.968 -05:00 [Information] Logger configurado
+2017-07-11 20:43:02.009 -05:00 [Information] MVC Configurado
+2017-07-11 20:43:02.269 -05:00 [Information] User profile is available. Using '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-07-11 20:43:02.322 -05:00 [Debug] Hosting starting
+2017-07-11 20:43:02.455 -05:00 [Debug] Connection id ""0HL68OTANSMHR"" started.
+2017-07-11 20:43:02.479 -05:00 [Debug] Connection id ""0HL68OTANSMHS"" started.
+2017-07-11 20:43:02.494 -05:00 [Debug] Hosting started
+2017-07-11 20:43:02.620 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/  
+2017-07-11 20:43:02.620 -05:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:9014/  0
+2017-07-11 20:43:02.783 -05:00 [Debug] Reading data from file '"C:\Users\bryan\AppData\Local\ASP.NET\DataProtection-Keys\key-dd96da85-ccba-45ca-b7a0-0f057ffac575.xml"'.
+2017-07-11 20:43:02.786 -05:00 [Debug] Connection id ""0HL68OTANSMHR"" completed keep alive response.
+2017-07-11 20:43:02.813 -05:00 [Information] Request finished in 225.43ms 200 
+2017-07-11 20:43:02.817 -05:00 [Debug] Found key {dd96da85-ccba-45ca-b7a0-0f057ffac575}.
+2017-07-11 20:43:02.848 -05:00 [Debug] Considering key {dd96da85-ccba-45ca-b7a0-0f057ffac575} with expiration date 2017-10-10 01:08:50Z as default key.
+2017-07-11 20:43:02.865 -05:00 [Debug] Decrypting secret element using Windows DPAPI.
+2017-07-11 20:43:02.883 -05:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2017-07-11 20:43:02.897 -05:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2017-07-11 20:43:02.913 -05:00 [Debug] Using key {dd96da85-ccba-45ca-b7a0-0f057ffac575} as the default key.
+2017-07-11 20:43:03.116 -05:00 [Debug] Request did not match any routes.
+2017-07-11 20:43:03.136 -05:00 [Debug] Connection id ""0HL68OTANSMHS"" completed keep alive response.
+2017-07-11 20:43:03.140 -05:00 [Information] Request finished in 573.3796ms 404 
+2017-07-11 20:43:03.163 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/favicon.ico  
+2017-07-11 20:43:03.173 -05:00 [Debug] Request did not match any routes.
+2017-07-11 20:43:03.179 -05:00 [Debug] Connection id ""0HL68OTANSMHR"" completed keep alive response.
+2017-07-11 20:43:03.184 -05:00 [Information] Request finished in 24.753ms 404 
+2017-07-11 20:43:09.804 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 20:43:09.814 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 20:43:09.952 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 20:43:10.030 -05:00 [Information] Executing action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" with arguments (null) - ModelState is Valid
+2017-07-11 20:43:24.642 -05:00 [Information] Smtp Information SmtpConfiguration { Name: "gmail.com", Port: 25, From: "email@gmail.com", FromPassword: "123456", Body: "Welcome {{name}} 2", Subject: "Bienvenido a la librería" }
+2017-07-11 20:43:28.369 -05:00 [Debug] Executed action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)", returned result "Microsoft.AspNetCore.Mvc.ContentResult".
+2017-07-11 20:43:28.395 -05:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2017-07-11 20:43:28.464 -05:00 [Information] Executed action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" in 18496.0211ms
+2017-07-11 20:43:28.472 -05:00 [Information] Session started; Key:"e75d4d1a-0f13-b746-50a3-be695ea2557e", Id:"5e7fe24b-9760-7f0c-0b3f-86ac7a4970f4"
+2017-07-11 20:43:28.502 -05:00 [Debug] Session stored; Key:"e75d4d1a-0f13-b746-50a3-be695ea2557e", Id:"5e7fe24b-9760-7f0c-0b3f-86ac7a4970f4", Count:1
+2017-07-11 20:43:28.504 -05:00 [Debug] Connection id ""0HL68OTANSMHS"" completed keep alive response.
+2017-07-11 20:43:28.507 -05:00 [Information] Request finished in 18703.386ms 200 text/plain; charset=utf-8
+2017-07-11 20:43:32.130 -05:00 [Information] Request starting HTTP/1.1 GET http://localhost:9014/SmtpInfo/get  
+2017-07-11 20:43:32.150 -05:00 [Debug] Request successfully matched the route with name '"default"' and template '"{controller}/{action}"'.
+2017-07-11 20:43:32.150 -05:00 [Debug] Executing action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)"
+2017-07-11 20:43:32.150 -05:00 [Information] Executing action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" with arguments (null) - ModelState is Valid
+2017-07-11 20:43:36.470 -05:00 [Debug] Session loaded; Key:"e75d4d1a-0f13-b746-50a3-be695ea2557e", Id:"5e7fe24b-9760-7f0c-0b3f-86ac7a4970f4", Count:1
+2017-07-11 20:43:43.846 -05:00 [Information] Smtp Information SmtpConfiguration { Name: "gmail.com", Port: 25, From: "email@gmail.com", FromPassword: "123456", Body: "Welcome {{name}} 2", Subject: "Bienvenido a la librería" }
+2017-07-11 20:43:43.849 -05:00 [Debug] Executed action method "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)", returned result "Microsoft.AspNetCore.Mvc.ContentResult".
+2017-07-11 20:43:43.851 -05:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2017-07-11 20:43:43.857 -05:00 [Information] Executed action "WebApiDos.Controllers.SmtpInfoController.Get (WebApiDos)" in 11698.6517ms
+2017-07-11 20:43:43.862 -05:00 [Debug] Connection id ""0HL68OTANSMHR"" completed keep alive response.
+2017-07-11 20:43:43.869 -05:00 [Information] Request finished in 11734.7576ms 200 text/plain; charset=utf-8
