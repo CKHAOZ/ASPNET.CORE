@@ -1,0 +1,14 @@
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\XUnitTestProject.deps.json
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\XUnitTestProject.runtimeconfig.json
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\XUnitTestProject.runtimeconfig.dev.json
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\XUnitTestProject.dll
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\XUnitTestProject.pdb
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\obj\Debug\netcoreapp1.1\XUnitTestProject.AssemblyInfo.cs
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\obj\Debug\netcoreapp1.1\XUnitTestProject.dll
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\obj\Debug\netcoreapp1.1\XUnitTestProject.pdb
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\obj\Debug\netcoreapp1.1\XUnitTestProject.csprojResolveAssemblyReference.cache
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\WebApiDos.dll
+C:\DATA\ASPNET.CORE\Dia.3\XUnitTestProject\bin\Debug\netcoreapp1.1\WebApiDos.pdb

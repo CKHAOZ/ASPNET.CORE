@@ -66,7 +66,7 @@ namespace WebApiDos.Services
         /// <inheritdoc />
         public void AddCategory(AddCategoryViewModel categoryViewModel)
         {
-            var maxId = categories.Max().Id;
+            var maxId = categories.Count;
             maxId++;
 
             categories.Add(new Category(categoryViewModel.Name, categoryViewModel.Description)
