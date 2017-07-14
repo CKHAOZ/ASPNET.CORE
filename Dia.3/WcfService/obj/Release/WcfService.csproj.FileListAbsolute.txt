@@ -1,0 +1,6 @@
+C:\Users\bryan\Documents\Visual Studio 2017\Projects\WcfService\bin\WcfService.dll.config
+C:\Users\bryan\Documents\Visual Studio 2017\Projects\WcfService\bin\WcfService.dll
+C:\Users\bryan\Documents\Visual Studio 2017\Projects\WcfService\bin\WcfService.pdb
+C:\Users\bryan\Documents\Visual Studio 2017\Projects\WcfService\obj\Release\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\bryan\Documents\Visual Studio 2017\Projects\WcfService\obj\Release\WcfService.dll
+C:\Users\bryan\Documents\Visual Studio 2017\Projects\WcfService\obj\Release\WcfService.pdb
