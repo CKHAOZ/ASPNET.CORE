@@ -1,0 +1,46 @@
+﻿@using WebApiDos.ViewModels;
+@using System.Collections.Generic
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.Name</li>
+    }
+</ul>
+
+
+@*@model IEnumerable<BookViewModel>
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<h2>Libros más valorados</h2>
+<h4>Nuestros mejores libros, solo para ti!</h4>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-4 col-lg-4 col-md-4">
+                <div class="thumbnail">
+                    <img src="@item.ImageUrl" alt="">
+                    <div class="caption">
+                        <h3 class="pull-right">@item.Year</h3>
+                        <h3>
+                            <a href="#">@item.Name</a>
+                        </h3>
+                        <p>@item.Description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        @Html.Partial("TopBook", item);
+    }
+</div>*@

@@ -6,3 +6,4 @@ C:\DATA\ASPNET.CORE\Dia.2\WebApiDos\bin\Debug\netcoreapp1.1\WebApiDos.pdb
 C:\DATA\ASPNET.CORE\Dia.2\WebApiDos\obj\Debug\netcoreapp1.1\WebApiDos.AssemblyInfo.cs
 C:\DATA\ASPNET.CORE\Dia.2\WebApiDos\obj\Debug\netcoreapp1.1\WebApiDos.dll
 C:\DATA\ASPNET.CORE\Dia.2\WebApiDos\obj\Debug\netcoreapp1.1\WebApiDos.pdb
+C:\DATA\ASPNET.CORE\Dia.2\WebApiDos\obj\Debug\netcoreapp1.1\WebApiDos.csprojResolveAssemblyReference.cache

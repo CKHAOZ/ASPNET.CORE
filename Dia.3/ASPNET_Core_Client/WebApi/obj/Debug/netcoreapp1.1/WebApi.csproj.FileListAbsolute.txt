@@ -1,0 +1,14 @@
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\obj\Debug\netcoreapp1.1\WebApi.csprojResolveAssemblyReference.cache
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\obj\Debug\netcoreapp1.1\WebApi.AssemblyInfo.cs
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\obj\Debug\netcoreapp1.1\WebApi.dll
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\obj\Debug\netcoreapp1.1\WebApi.pdb
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\WebApi.deps.json
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\WebApi.runtimeconfig.json
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\WebApi.runtimeconfig.dev.json
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\WebApi.dll
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\WebApi.pdb
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\Debug\netcoreapp1.1\WebApi.deps.json
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\Debug\netcoreapp1.1\WebApi.runtimeconfig.json
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\Debug\netcoreapp1.1\WebApi.runtimeconfig.dev.json
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\Debug\netcoreapp1.1\WebApi.dll
+C:\DATA\ASPNET.CORE\Dia.3\ASPNET_Core_Client\WebApi\bin\Debug\netcoreapp1.1\WebApi.pdb

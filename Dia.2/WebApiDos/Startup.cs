@@ -55,7 +55,9 @@ namespace WebApiDos
 
             logger.Information("Logger configurado");
             logger.Information("MVC Configurado");
-            
+
+            app.UseStaticFiles();
+
             app.UseSession();
 
             app.UseMvc(routes =>
