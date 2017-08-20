@@ -1,0 +1,14 @@
+﻿@model IEnumerable<BookViewModel>
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<h2>@ViewBag.CategoryName</h2>
+<h4>@ViewBag.CategoryDescription</h4>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        @Html.Partial("TopBook", item);
+    }
+</div>

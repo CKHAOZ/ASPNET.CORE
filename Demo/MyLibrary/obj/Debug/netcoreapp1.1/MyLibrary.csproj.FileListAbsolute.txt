@@ -1,0 +1,10 @@
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\bin\Debug\netcoreapp1.1\MyLibrary.deps.json
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\bin\Debug\netcoreapp1.1\MyLibrary.runtimeconfig.json
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\bin\Debug\netcoreapp1.1\MyLibrary.runtimeconfig.dev.json
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\bin\Debug\netcoreapp1.1\MyLibrary.dll
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\bin\Debug\netcoreapp1.1\MyLibrary.pdb
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\obj\Debug\netcoreapp1.1\MyLibrary.AssemblyInfo.cs
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\obj\Debug\netcoreapp1.1\MyLibrary.dll
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\obj\Debug\netcoreapp1.1\MyLibrary.pdb
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\bin\Debug\netcoreapp1.1\library-api.xml
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary\obj\Debug\netcoreapp1.1\MyLibrary.csprojResolveAssemblyReference.cache

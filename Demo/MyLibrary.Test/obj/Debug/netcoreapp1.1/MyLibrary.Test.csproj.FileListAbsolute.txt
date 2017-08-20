@@ -1,0 +1,14 @@
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\MyLibrary.Test.deps.json
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\MyLibrary.Test.runtimeconfig.json
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\MyLibrary.Test.runtimeconfig.dev.json
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\MyLibrary.Test.dll
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\MyLibrary.Test.pdb
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\obj\Debug\netcoreapp1.1\MyLibrary.Test.csprojResolveAssemblyReference.cache
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\obj\Debug\netcoreapp1.1\MyLibrary.Test.AssemblyInfo.cs
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\obj\Debug\netcoreapp1.1\MyLibrary.Test.dll
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\obj\Debug\netcoreapp1.1\MyLibrary.Test.pdb
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\MyLibrary.dll
+C:\Users\julitogtu\Documents\ASPNET Core\MyLibrary\MyLibrary.Test\bin\Debug\netcoreapp1.1\MyLibrary.pdb

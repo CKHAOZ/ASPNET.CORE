@@ -10,7 +10,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using WebApiDos.Infrastructure;
 using Serilog;
-
+using WebApiDos.Domain;
+using WebApiDos.Services;
 
 namespace WebApiDos
 {
@@ -41,6 +42,13 @@ namespace WebApiDos
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
                 options.CookieSecure = CookieSecurePolicy.SameAsRequest;
             });
+
+            services.AddDbContext<LibraryContext>(
+                options => options.UseSqlServer(Configuration.GetConnectionString("ConnectionStrings"))
+            );
+
+            services.AddScoped<ICategoryRepository, DbCategoryRepository>();
+            services.AddScoped<IBookRepository, DbBookRepository>();
 
             services.AddMvc();
         }

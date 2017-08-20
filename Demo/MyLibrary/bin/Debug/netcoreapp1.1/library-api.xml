@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:MyLibrary.Controllers.Api.BooksController">
+            <summary>
+            Endpoint to return book information.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Controllers.Api.BooksController.#ctor(MyLibrary.Services.IBookRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyLibrary.Controllers.Api.BooksController"/> class.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Controllers.Api.BooksController.List">
+            <summary>
+            Get all books
+            </summary>
+            <returns>A list of <see cref="T:MyLibrary.ViewModels.BookViewModel"/></returns>
+        </member>
+        <member name="M:MyLibrary.Controllers.Api.BooksController.ByCategory(System.Int32)">
+            <summary>
+            Gets books by a given category.
+            </summary>
+            <param name="id">Category id</param>
+            <returns>A list of <see cref="T:MyLibrary.ViewModels.BookViewModel"/></returns>
+        </member>
+        <member name="T:MyLibrary.Domain.Book">
+            <summary>
+            Book entity.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.Id">
+            <summary>
+            Gets or sets the book id.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.Name">
+            <summary>
+            Gets por sets the book name.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.Description">
+            <summary>
+            Gets or sets the book description.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.Author">
+            <summary>
+            Gets or sets the author.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.Year">
+            <summary>
+            Gets or sets the book year.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.ImageUrl">
+            <summary>
+            Gets or sets the image url.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.CreatedDate">
+            <summary>
+            Gets or sets the created date.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.IsBestSeller">
+            <summary>
+            Gets or sets a value indicating wheter the book is a best seller or not.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.UpdatedDate">
+            <summary>
+            Gets or sets the last updated date.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.CategoryId">
+            <summary>
+            Gets or sets the category id.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Book.Category">
+            <summary>
+            Gets or sets the book's category.
+            </summary>
+        </member>
+        <member name="T:MyLibrary.Domain.Category">
+            <summary>
+            Category entity.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Domain.Category.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyLibrary.Domain.Category"/> class.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Domain.Category.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyLibrary.Domain.Category"/> class.
+            </summary>
+            <param name="name">Category name</param>
+            <param name="description">Category description</param>
+        </member>
+        <member name="P:MyLibrary.Domain.Category.Id">
+            <summary>
+            Gets or sets the category id.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Category.Name">
+            <summary>
+            Gets or sets the category name.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Category.Description">
+            <summary>
+            Gets or sets the category description.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Category.CreatedDate">
+            <summary>
+            Gets or sets the created date.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Category.UpdatedDate">
+            <summary>
+            Gets or sets the last updated date.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.Domain.Category.Books">
+            <summary>
+            Gets or sets a list of book for a given category.
+            </summary>
+        </member>
+        <member name="T:MyLibrary.Services.IBookRepository">
+            <summary>
+            Repository to manage books.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Services.IBookRepository.GetBooks">
+            <summary>
+            Gets all books.
+            </summary>
+            <returns>A list of <see cref="T:MyLibrary.ViewModels.BookViewModel"/></returns>
+        </member>
+        <member name="M:MyLibrary.Services.IBookRepository.GetBestSellerBooks">
+            <summary>
+            Gets best seller books. 
+            </summary>
+            <returns>A list of <see cref="T:MyLibrary.ViewModels.BookViewModel"/></returns>
+        </member>
+        <member name="M:MyLibrary.Services.IBookRepository.GetBooksByCategory(System.Int32)">
+            <summary>
+            Get books by a given category.
+            </summary>
+            <param name="categoryId">Category id</param>
+            <returns>A list of <see cref="T:MyLibrary.ViewModels.BookViewModel"/></returns>
+        </member>
+        <member name="M:MyLibrary.Services.IBookRepository.GetBookById(System.Int32)">
+            <summary>
+            Gets a book.
+            </summary>
+            <param name="id">Book id</param>
+            <returns>A <see cref="T:MyLibrary.ViewModels.BookViewModel"/></returns>
+        </member>
+        <member name="T:MyLibrary.Services.ICategoryRepository">
+            <summary>
+            Repository to manage categories.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Services.ICategoryRepository.GetCategories">
+            <summary>
+            Get all categories.
+            </summary>
+            <returns>A list of <see cref="T:MyLibrary.ViewModels.CategoryViewModel"/></returns>
+        </member>
+        <member name="M:MyLibrary.Services.ICategoryRepository.GetCategoryById(System.Int32)">
+            <summary>
+            Get a category.
+            </summary>
+            <param name="id">Category id</param>
+            <returns>A <see cref="T:MyLibrary.ViewModels.CategoryViewModel"/></returns>
+        </member>
+        <member name="M:MyLibrary.Services.ICategoryRepository.AddCategory(MyLibrary.ViewModels.AddCategoryViewModel)">
+            <summary>
+            Creates a new category.
+            </summary>
+            <param name="categoryViewModel">A <see cref="T:MyLibrary.ViewModels.AddCategoryViewModel"/></param>
+        </member>
+        <member name="T:MyLibrary.Services.MockBookRepository">
+            <summary>
+            Repository to manage books.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Services.MockBookRepository.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyLibrary.Services.MockBookRepository"/> class.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Services.MockBookRepository.GetBooks">
+            <inheritdoc />
+        </member>
+        <member name="M:MyLibrary.Services.MockBookRepository.GetBestSellerBooks">
+            <inheritdoc />
+        </member>
+        <member name="M:MyLibrary.Services.MockBookRepository.GetBooksByCategory(System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyLibrary.Services.MockBookRepository.GetBookById(System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyLibrary.Services.MockCategoryRepository">
+            <summary>
+            Repository to manage categories.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Services.MockCategoryRepository.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyLibrary.Services.MockCategoryRepository"/>
+            </summary>
+        </member>
+        <member name="M:MyLibrary.Services.MockCategoryRepository.GetCategories">
+            <inheritdoc />
+        </member>
+        <member name="M:MyLibrary.Services.MockCategoryRepository.GetCategoryById(System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyLibrary.Services.MockCategoryRepository.AddCategory(MyLibrary.ViewModels.AddCategoryViewModel)">
+            <inheritdoc />
+        </member>
+        <member name="T:MyLibrary.ViewModels.AddCategoryViewModel">
+            <summary>
+            Represents the information to add a new category
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.AddCategoryViewModel.Name">
+            <summary>
+            Gets or sets the category name.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.AddCategoryViewModel.Description">
+            <summary>
+            Gets or sets the category description.
+            </summary>
+        </member>
+        <member name="T:MyLibrary.ViewModels.BookViewModel">
+            <summary>
+            Represents a book.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.BookViewModel.Id">
+            <summary>
+            Gets or sets the book id.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.BookViewModel.Name">
+            <summary>
+            Gets por sets the book name.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.BookViewModel.Description">
+            <summary>
+            Gets or sets the book description.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.BookViewModel.Author">
+            <summary>
+            Gets or sets the author.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.BookViewModel.Year">
+            <summary>
+            Gets or sets the book year.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.BookViewModel.ImageUrl">
+            <summary>
+            Gets or sets the image url.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.BookViewModel.IsBestSeller">
+            <summary>
+            Gets or sets a value indicating wheter the book is a best seller or not.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.BookViewModel.Category">
+            <summary>
+            Gets or sets the category name.
+            </summary>
+        </member>
+        <member name="T:MyLibrary.ViewModels.CategoryViewModel">
+            <summary>
+            Represents a category.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.CategoryViewModel.Id">
+            <summary>
+            Gets or sets the category id.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.CategoryViewModel.Name">
+            <summary>
+            Gets or sets the category name.
+            </summary>
+        </member>
+        <member name="P:MyLibrary.ViewModels.CategoryViewModel.Description">
+            <summary>
+            Gets or sets the category description.
+            </summary>
+        </member>
+    </members>
+</doc>
